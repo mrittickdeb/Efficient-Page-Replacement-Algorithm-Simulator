@@ -7,6 +7,4 @@ This project simulates various page replacement algorithms.
 - Performance comparison
 - Visual representation of memory usage
 
-## How to Use
-1. Clone this repository
-2. Run the simulation
+
