@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import ttk, messagebox
 import matplotlib.pyplot as plt
 
-# 🟢 FIFO Page Replacement Algorithm
+# FIFO Page Replacement Algorithm
 def fifo_algorithm(reference_string, num_frames):
     frames = []
     page_faults = 0
@@ -24,7 +24,7 @@ def fifo_algorithm(reference_string, num_frames):
 
     return result, page_faults
 
-# 🟢 LRU Page Replacement Algorithm
+# LRU Page Replacement Algorithm
 def lru_algorithm(reference_string, num_frames):
     frames = []
     page_faults = 0
@@ -49,7 +49,7 @@ def lru_algorithm(reference_string, num_frames):
 
     return result, page_faults
 
-# 🟢 Optimal Page Replacement Algorithm
+# Optimal Page Replacement Algorithm
 def optimal_algorithm(reference_string, num_frames):
     frames = []
     page_faults = 0
@@ -73,7 +73,7 @@ def optimal_algorithm(reference_string, num_frames):
 
     return result, page_faults
 
-# 🟢 Function to handle simulation
+# Function to handle simulation
 def run_simulation():
     try:
         reference_string = list(map(int, entry_ref_string.get().split(",")))
@@ -107,7 +107,7 @@ def run_simulation():
     except ValueError:
         messagebox.showerror("Error", "Invalid input. Please enter numbers only.")
 
-# 🟢 Function to plot results
+#  Function to plot results
 def plot_graph():
     reference_string = list(map(int, entry_ref_string.get().split(",")))
     num_frames = int(entry_frames.get())
@@ -133,7 +133,7 @@ def plot_graph():
     plt.title("Page Replacement Algorithm Comparison")
     plt.show()
 
-# 🟢 GUI Setup
+# GUI Setup
 root = tk.Tk()
 root.title("Page Replacement Algorithm Simulator")
 root.geometry("700x500")
