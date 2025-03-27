@@ -14,6 +14,9 @@ After designing the user interface, the next step was to choose the algorithms t
 2. Least Recently Used (LRU) algorithm
 3. Most Recently Used (MRU) algorithm
 4. Optimal Page Replacement (OPR) algorithm
+
+
+
 The Page Replacement Algorithm Simulator project comes with several features that make it a useful tool for studying and comparing different page replacement algorithms. Some of the important features of the project are:
 The user interface is intuitive and easy to use, even for non-technical users.
 The application supports multiple page replacement algorithms, including FIFO, LRU, MRU, and OPR.
