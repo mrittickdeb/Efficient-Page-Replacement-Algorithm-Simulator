@@ -1,24 +1,106 @@
-# Efficient Page Replacement Algorithm Simulator
+Page Replacement Algorithm Simulator
 
-This project simulates various page replacement algorithms.
+This project is a Graphical User Interface (GUI) application for simulating Page Replacement Algorithms using Python and Tkinter. The simulator allows users to input a reference string, select a page replacement algorithm, and visualize the results.
 
-## Features
-- FIFO, LRU, and Optimal Page Replacement algorithms
-- Performance comparison
-- Visual representation of memory usage
+📌 Features
+Supports the following algorithms:
 
-The development of the Page Replacement Algorithm Simulator project was a multi-step process that involved designing the user interface, choosing appropriate algorithms to implement, developing the application using Reactjs, JavaScript, HTML, CSS, Firebase, and deploying the application on AWS Amplify. The following are the steps involved in the development of this project:
-After designing the user interface, the next step was to choose the algorithms to implement. The following algorithms were implemented in the project:
+✅ FIFO (First In First Out)
 
-1. First-In-First-Out (FIFO) algorithm
-2. Least Recently Used (LRU) algorithm
-3. Most Recently Used (MRU) algorithm
-4. Optimal Page Replacement (OPR) algorithm
+✅ LRU (Least Recently Used)
 
+✅ Optimal Page Replacement
 
+✅ MRU (Most Recently Used)
 
-The Page Replacement Algorithm Simulator project comes with several features that make it a useful tool for studying and comparing different page replacement algorithms. Some of the important features of the project are:
-The user interface is intuitive and easy to use, even for non-technical users.
-The application supports multiple page replacement algorithms, including FIFO, LRU, MRU, and OPR.
-The application simulates page replacement in real-time, allowing users to visualize the performance of different algorithms.
-The application generates interactive charts that show the performance of different algorithms over time.
+Displays step-by-step execution results in a table.
+
+Shows total page faults for the selected algorithm.
+
+Saves results to a file: page_replacement_results.txt.
+
+Provides a graphical comparison of page faults for different algorithms.
+
+⚙️ Requirements
+Python 3.x
+
+Required Libraries:
+
+tkinter (Usually pre-installed with Python)
+
+ttk (Comes with tkinter)
+
+matplotlib
+
+To install any missing dependencies:
+bash
+Copy
+Edit
+
+pip install matplotlib
+
+🚀 How to Run
+Clone or Download the project.
+
+Navigate to the project directory.
+
+Run the script using:
+
+bash
+Copy
+Edit
+
+python page_replacement_simulator.py
+
+🏃 Usage Instructions
+Enter the Reference String — A comma-separated sequence of page numbers.
+
+Example: 7,0,1,2,0,3,4,2,3,0,3,2
+
+Enter the Number of Frames — The capacity of the frame buffer.
+
+Example: 3
+
+Select the Algorithm — Choose from:
+
+FIFO, LRU, Optimal, or MRU.
+
+Run Simulation — Click the "Run Simulation" button.
+
+View Results — See the step-by-step output in the table.
+
+Plot Results — Click "Plot Graph" to compare performance.
+
+📁 Output
+Results are displayed in the GUI.
+
+Results are saved to a file named page_replacement_results.txt.
+
+The graph shows a bar chart comparing total page faults.
+
+📊 Sample Graph Output
+The bar chart compares the total page faults for the four algorithms.
+
+🔍 Example
+Reference String: 7, 0, 1, 2, 0, 3, 4, 2, 3, 0, 3, 2
+
+Number of Frames: 3
+
+Algorithm: FIFO
+
+Output file (page_replacement_results.txt):
+
+yaml
+Copy
+Edit
+Algorithm: FIFO
+Total Page Faults: 9
+Step | Page | Frames       | Page Fault
+1    | 7    | [7]          | Yes
+2    | 0    | [7, 0]       | Yes
+3    | 1    | [7, 0, 1]    | Yes
+4    | 2    | [0, 1, 2]    | Yes
+
+📝 License
+This project is licensed under the MIT License — feel free to modify and use it.
+
