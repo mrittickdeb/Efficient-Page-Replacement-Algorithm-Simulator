@@ -1,40 +1,35 @@
-Page Replacement Algorithm Simulator
+# 📄 Page Replacement Algorithm Simulator
 
-This project is a Graphical User Interface (GUI) application for simulating Page Replacement Algorithms using Python and Tkinter. The simulator allows users to input a reference string, select a page replacement algorithm, and visualize the results.
+This project is a **Graphical User Interface (GUI)** application for simulating **Page Replacement Algorithms** using **Python** and **Tkinter**. It allows users to input a reference string, select a page replacement algorithm, and visualize the results.
 
-📌 Features
-Supports the following algorithms:
+## ✨ Features
+✅ **Supports the following algorithms:**  
+- 🟢 **FIFO** (First In First Out)  
+- 🟢 **LRU** (Least Recently Used)  
+- 🟢 **Optimal Page Replacement**  
+- 🟢 **MRU** (Most Recently Used)  
 
-✅ FIFO (First In First Out)
+✅ **Displays** step-by-step execution results in a table.  
+✅ **Shows** total page faults for the selected algorithm.  
+✅ **Saves** results to a file: `page_replacement_results.txt`.  
+✅ **Provides** a graphical comparison of page faults for different algorithms.  
 
-✅ LRU (Least Recently Used)
+---
 
-✅ Optimal Page Replacement
+## ⚙️ **Requirements**
+- **Python 3.x**  
 
-✅ MRU (Most Recently Used)
+### 📦 **Required Libraries:**
+- **tkinter** (Usually pre-installed with Python)  
+- **ttk** (Comes with tkinter)  
+- **matplotlib**  
 
-Displays step-by-step execution results in a table.
+#### **To install any missing dependencies:**
 
-Shows total page faults for the selected algorithm.
-
-Saves results to a file: page_replacement_results.txt.
-
-Provides a graphical comparison of page faults for different algorithms.
-
-⚙️ Requirements
-Python 3.x
-
-Required Libraries:
-
-tkinter (Usually pre-installed with Python)
-
-ttk (Comes with tkinter)
-
-matplotlib
-
-To install any missing dependencies:
+```bash
 
 pip install matplotlib
+
 
 🚀 How to Run
 Clone or Download the project.
