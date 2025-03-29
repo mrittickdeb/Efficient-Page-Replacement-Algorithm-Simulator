@@ -33,9 +33,6 @@ ttk (Comes with tkinter)
 matplotlib
 
 To install any missing dependencies:
-bash
-Copy
-Edit
 
 pip install matplotlib
 
@@ -45,10 +42,6 @@ Clone or Download the project.
 Navigate to the project directory.
 
 Run the script using:
-
-bash
-Copy
-Edit
 
 python page_replacement_simulator.py
 
@@ -90,9 +83,6 @@ Algorithm: FIFO
 
 Output file (page_replacement_results.txt):
 
-yaml
-Copy
-Edit
 Algorithm: FIFO
 Total Page Faults: 9
 Step | Page | Frames       | Page Fault
